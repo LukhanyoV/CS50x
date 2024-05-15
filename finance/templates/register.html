@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <form action="/register" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="password" placeholder="Password" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="confirmation" placeholder="Password (again)" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+
+    <!-- should i do client side validation or not -->
+    <!-- <script type="text/javascript">
+        // make sure the page fully loads first
+        document.addEventListener("DOMContentLoaded", () => {
+            // prevent form from submitting first
+            document.querySelector("form").addEventListener("submit", e => {
+                // e.preventDefault();
+            });
+        })
+    </script> -->
+{% endblock %}

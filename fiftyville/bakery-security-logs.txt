@@ -1,0 +1,60 @@
++-------+----------+---------------+
+| time  | activity | license_plate |
++-------+----------+---------------+
+| 8:2   | entrance | 1M92998       |
+| 8:2   | entrance | N507616       |
+| 8:2   | exit     | 1M92998       |
+| 8:2   | exit     | N507616       |
+| 8:7   | entrance | 7Z8B130       |
+| 8:7   | exit     | 7Z8B130       |
+| 8:13  | entrance | 47MEFVA       |
+| 8:13  | exit     | 47MEFVA       |
+| 8:15  | entrance | D965M59       |
+| 8:15  | entrance | HW0488P       |
+| 8:15  | exit     | D965M59       |
+| 8:15  | exit     | HW0488P       |
+| 8:18  | entrance | L93JTIZ       |
+| 8:23  | entrance | 94KL13X       |
+| 8:25  | entrance | L68E5I0       |
+| 8:25  | entrance | HOD8639       |
+| 8:25  | exit     | HOD8639       |
+| 8:34  | exit     | L68E5I0       |
+| 8:34  | entrance | 1106N58       |
+| 8:34  | entrance | W2CT78U       |
+| 8:34  | exit     | W2CT78U       |
+| 8:36  | entrance | 322W7JE       |
+| 8:38  | entrance | 3933NUH       |
+| 8:38  | exit     | 3933NUH       |
+| 8:42  | entrance | 0NTHK55       |
+| 8:44  | entrance | 1FBL6TH       |
+| 8:44  | exit     | 1FBL6TH       |
+| 8:49  | entrance | P14PE2Q       |
+| 8:49  | exit     | P14PE2Q       |
+| 8:50  | entrance | 4V16VO0       |
+| 8:50  | exit     | 4V16VO0       |
+| 8:57  | entrance | 8LLB02B       |
+| 8:57  | exit     | 8LLB02B       |
+| 8:59  | entrance | O784M2U       |
+| 8:59  | exit     | O784M2U       |
+| 9:14  | entrance | 4328GD8       |
+| 9:15  | entrance | 5P2BI95       |
+| 9:20  | entrance | 6P58WS2       |
+| 9:28  | entrance | G412CB7       |
+| 10:8  | entrance | R3G7486       |
+| 10:14 | entrance | 13FNH73       |
+| 10:16 | exit     | 5P2BI95       | +
+| 10:18 | exit     | 94KL13X       | +
+| 10:18 | exit     | 6P58WS2       | +
+| 10:19 | exit     | 4328GD8       | +
+| 10:20 | exit     | G412CB7       | +
+| 10:21 | exit     | L93JTIZ       | +
+| 10:23 | exit     | 322W7JE       | +
+| 10:23 | exit     | 0NTHK55       | +
+| 10:35 | exit     | 1106N58       | +
+| 10:42 | entrance | NRYN856       |
+| 10:44 | entrance | WD5M8I6       |
+| 10:55 | entrance | V47T75I       |
+| 11:6  | entrance | 4963D92       |
+| 11:13 | entrance | C194752       |
+| 11:52 | entrance | 94MV71O       |
++-------+----------+---------------+

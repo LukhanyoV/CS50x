@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <h2>Deposit money</h2>
+    <p>Cash Balance: {{ cash | usd }}</p>
+    <form action="/deposit" method="POST">
+        <div class="mb-3">
+            <input autocomplete="off" class="form-control mx-auto w-auto" name="amount" placeholder="Amount" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Deposit</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,65 @@
+body, html {
+    background: #f1faee;
+}
+
+.nav {
+    background: #1d3557;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav-items > li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+.nav-items > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items > li > a.active {
+    text-decoration: none;
+    color: #dda15e;
+}
+
+/* index.html */
+.hero {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* widgets.html */
+.timedate {
+    height: 600px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* about.html */
+/* table, thead, tbody, tr, td {
+    border: 1px solid;
+} */
+
+
+/* google.html */
+.google {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-search {
+
+}

@@ -1,0 +1,12 @@
+Question 1:
+Q: If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+A: I would categorize their audio aura as "Purple" as the average danceability of the songs is high.
+
+Question 2:
+Q: Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+A: Well The listener might not be in the same mood as they were when they started to like the songs,
+so they might just be listening to the songs out of habit or because they liked the songs
+
+Question 3:
+Q: What better ways of calculating this aura would you propose?
+A: I can't think of any way.

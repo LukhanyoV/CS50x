@@ -1,0 +1,9 @@
+# 10 HTML tags I have used
+div, img, ul, table, input, p, h1, label, form, a
+
+# 5 CSS properties I have used
+color, display, padding, margin, text-decoration
+
+# how I choose to use JavaScript and Bootstrap
+* I choose to use the help of boostrap with forms and table
+* I choose to use JavaScript on making a widget that shows the time and date, and a personalised message for each day of the week

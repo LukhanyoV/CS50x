@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What's the best programming language?</h3>
+                <p id="button-response">Select an option below</p>
+                <button class="button-choice" value="1">C</button>
+                <button class="button-choice" value="2">Python</button>
+                <button class="button-choice" value="3">JavaScript</button>
+                <button class="button-choice" value="4">Java</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is 1 + 1?</h3>
+                <p id="free-response">Enter answer here</p>
+                <input id="text-response" type="number" placeholder="Please enter a number" />
+                <button id="free-check">Check Answer</button>
+            </div>
+        </div>
+        <!-- javascript code below -->
+        <script type="text/javascript">
+            // make references to my elements
+            const txtButtonChoice = document.querySelector("#button-response");
+            //
+            document.querySelectorAll(".button-choice").forEach(element => {
+                element.addEventListener("click", () => {
+                    // corect answer is 3 - JavaScript
+                    let answer = element.value == 3;
+
+                    // alert the user
+                    txtButtonChoice.innerText = answer ? "Correct" : "Incorrect";
+
+                    // change the text box color depending on
+                    // if answer given by user is correct or not
+                    let answerClass = answer ? "success" : "danger";
+                    element.classList.add(answerClass);
+                    element.classList.add(answerClass+"-text");
+                    txtButtonChoice.classList.add(answerClass+"-text");
+
+                    // clear message after a few seconds
+                    let seconds = 2;
+                    setTimeout(() => {
+                        txtButtonChoice.innerText = "Select an option below";
+                        element.classList.remove(answerClass);
+                        element.classList.remove(answerClass+"-text");
+                        txtButtonChoice.classList.remove(answerClass+"-text");
+                    }, seconds * 1000);
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            // make references to my elements
+            const txtFreeResponse = document.querySelector("#free-response");
+            const txtInput = document.querySelector("#text-response");
+            const btnFreeChecK = document.querySelector("#free-check");
+
+            // listen for the click even on the check free response part
+            // works but [how about you generate a random question each time]
+            btnFreeChecK.addEventListener("click", () => {
+                // check if answer is correct
+                let answer = txtInput.value == 2;
+
+                // alert the user
+                txtFreeResponse.innerText = answer ? "Correct" : "Incorrect";
+
+                // change the text box color depending on
+                // if answer given by user is correct or not
+                let answerClass = answer ? "success" : "danger";
+                txtInput.classList.add(answerClass);
+                txtFreeResponse.classList.add(answerClass+"-text");
+
+                // clear message after a few seconds
+                // clear message box color
+                let seconds = 2;
+                setTimeout(() => {
+                    txtFreeResponse.innerText = "Enter answer here: ";
+                    txtInput.classList.remove(answerClass);
+                    txtFreeResponse.classList.remove(answerClass+"-text");
+
+                    // reset input box value to nothing
+                    txtInput.value = "";
+                }, seconds * 1000);
+            });
+        </script>
+    </body>
+</html>
